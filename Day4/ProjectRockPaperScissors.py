@@ -56,11 +56,11 @@ else:
     print(computerChoose)
 
     #If statement selecting who wins
-    if userChoose == computerChoose:
+    if userNumber == randomNumber:
         print("It is a draw")
-    elif (userChoose == 0 and computerChoose == 2) or \
-    (userChoose == 2 and computerChoose == 1) or\
-    (userChoose == 1 and computerChoose == 0):
+    elif (userNumber == 0 and randomNumber == 2) or \
+    (userNumber == 2 and randomNumber == 1) or\
+    (userNumber == 1 and randomNumber == 0):
         print("You win")
     else:
         print("You lose")
