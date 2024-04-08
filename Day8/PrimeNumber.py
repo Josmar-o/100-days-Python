@@ -7,7 +7,7 @@ def isPrime (number):
 #       is_prime = False
 #   if is_prime:
 #     print("It's a prime number.")
-#   else:
+#   else: 
 #     print("It's not a prime number.")  
     numbers = []
     for i in range(1, number + 1):
