@@ -1,4 +1,4 @@
-student_scores = [91, 94, 80, 99]
+student_scores = [1, 50, 100, 40]
 grade = 0
 for score in student_scores:
   if grade < score:
